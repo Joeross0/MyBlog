@@ -1,0 +1,117 @@
+body {
+	background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fgetwallpapers.com%2Fwallpaper%2Ffull%2Fb%2F4%2F4%2F753261-free-download-microsoft-desktop-backgrounds-1920x1080-for-4k.jpg&f=1&nofb=1");
+	min-height: 500px; 
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    font-family: Sans-serif;
+    margin: 0 auto;
+}
+
+/* Nav Bar */
+.nav{
+    background-color: black;
+    border-bottom: 5px solid gray;
+    
+}
+ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+  }
+
+li {
+    display:inline-block
+
+}
+nav{
+    padding: 10px;
+}
+
+
+/* Links */
+a:hover{
+    color: rgb(94, 114, 228);
+}
+
+a{
+    color: whitesmoke;
+    text-decoration: none;
+    
+}
+
+.body{
+    align-content: center;
+    background-color: whitesmoke;
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 1px 0px;
+}
+
+h2, h3{
+    text-align: center;
+}
+
+.intro, .posts, .top-user, .user-list{
+    padding: 5px 30px;
+}
+.posts, .user-list
+{
+    background-color: black;
+    color:whitesmoke
+}
+
+.post{
+    border-bottom: 5px solid gray;
+}
+
+#profile-title{
+    color: black
+}
+
+/*User List */
+.user-list:not(h3){
+    padding: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.user-list div{
+    padding: 5%;
+    margin: 10px;
+}
+.userl{
+    border: 1px solid gray;
+    width: min-content;
+    inline-size: min-content;
+    height: min-content;
+    block-size: min-content;
+    align-content: center;
+    padding: 5px
+    
+}
+.activeUserImg{
+    width: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+/* Author.html */
+.profile-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+
+/* Top Posts */
+
+.postTitle {
+    font-size: x-large;
+    padding: auto;
+}
